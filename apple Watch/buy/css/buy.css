@@ -1,0 +1,68 @@
+.buy-list{
+	animation: FadeUp 1.2s;
+	position:relative;
+	width:980px;
+	height:auto;
+	margin:120px auto;
+}
+.nav_lock{
+	position:fixed;
+	top:0px;
+	z-index:9990;
+}
+.B-title{
+	font-size:35px;
+	font-weight:bold;
+}
+.buy-img img{
+	padding:50px;
+	max-width: 203px;
+    max-height: 203px;
+    width: auto;
+    height: auto;
+	float:left;
+}
+.buy-info{
+	float:left;
+	width:500px;
+}
+.buy_btn{
+	float:right;
+	color:#fff;
+	text-align:center;
+	line-height:45px;
+	margin-top:36px;
+	border-radius:4px;
+	transition-duration: .1s;
+	width:60%;
+	height:45px;
+	background:linear-gradient(#42a1ec,#0070c9);
+}
+.buy_btn:hover{
+	filter:brightness(110%);
+}
+.buy_btn:active{
+	filter:brightness(90%);
+}
+.footer-buy{
+	width:100%;
+	height:200px;
+	line-height:40px;
+	text-align:center;
+	float:left;
+}
+.load-ing-buy{
+	animation:FadeUp 1s;
+	display:none;
+	width:60px;
+	height:60px;
+	border-radius:10px;
+	text-align:center;
+	line-height:150px;
+	position:fixed;
+	background:rgba(0,0,0,.8);
+	left:50%;
+	top:50%;
+	margin-left:-30px;
+	margin-top:-30px;
+}
